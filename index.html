@@ -15,12 +15,19 @@
   <body>
     <div id="app">
 
-      <div class='nav'>
-       <a href="#" v-on:click="setPage('job-list')">Job List</a>
-       <a href="#" v-on:click="setPage('job-details')">job-details</a>
-       <a href="#" v-on:click="setPage('company-profile')">company-profile</a>
-       <a href="#" v-on:click="setPage('applications-list')">applications-list</a>
-       <a href="#" v-on:click="setPage('student-profile')">student-profile</a>
+      <div class='navbar navbar-expand-lg navbar-light bg-light'>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#" v-on:click="setPage('job-list')">Job List</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" v-on:click="setPage('job-details')">job-details</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" v-on:click="setPage('company-profile')">company-profile</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" v-on:click="setPage('applications-list')">applications-list</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" v-on:click="setPage('student-profile')">student-profile</a></li> 
+        </ul>
+       
+       
+       
+       
+       
       </div>
 
       <!--

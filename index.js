@@ -33,11 +33,12 @@ let jobComponent = Vue.component('lc-job', {
   props: ['joby'],
 
   template: `
-  	<h3>jo</h3>
+  	<h3>{{this.joby.title}}</h3>
+    
   `,
   data: function() {
   	return {
-
+      
     };
   }
 })
